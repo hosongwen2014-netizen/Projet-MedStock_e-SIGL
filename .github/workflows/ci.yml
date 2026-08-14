@@ -1,0 +1,36 @@
+﻿name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Start services
+        run: |
+          docker compose -f medstock/docker-compose.yml up --build -d
+
+      - name: Wait for API
+        run: |
+          for i in {1..30}; do
+            if curl -s http://localhost:8000/health | grep -q '"status"'; then echo "API up" && break; fi
+            sleep 2
+          done
+
+      - name: Run basic integration test
+        run: |
+          cat > payload.json <<'EOF'
+[{"uuid":"gh-actions-test-$(date +%s)","medicament_id":1,"type_mouvement":"ENTREE","quantite":1,"date_mouvement":"$(date --iso-8601=seconds)","lot_numero":"CI","date_peremption":"2027-01-01","pharmacie_id":"CI","source":"CI"}]
+EOF
+          curl -s -X POST -H "Content-Type: application/json" --data-binary @payload.json http://localhost:8000/api/mouvements
+
+      - name: Tear down
+        if: always()
+        run: |
+          docker compose -f medstock/docker-compose.yml down --volumes
