@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEDSTOCK - Dispensation & Caisse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./medstock_offline.js" defer></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+  <nav class="bg-blue-800 text-white p-4 shadow-md flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+      <span class="text-2xl font-bold tracking-wider">📦 MEDSTOCK</span>
+      <span class="text-xs bg-blue-600 px-2 py-1 rounded">v1.0.0</span>
+    </div>
+
+    <div id="statut-reseau" class="flex items-center space-x-2 bg-green-600 px-3 py-1 rounded-full text-sm font-medium text-white">
+      <span class="h-2 w-2 bg-white rounded-full animate-pulse"></span>
+      <span id="statut-texte">Mode Connecté (Serveur)</span>
+    </div>
+  </nav>
+
+  <div class="max-w-7xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="lg:col-span-2 bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+      <h2 class="text-xl font-bold mb-4 text-blue-900 border-b pb-2">Dispensation de Médicaments</h2>
+
+      <form id="form-vente" class="space-y-4">
+        <div>
+          <label class="block text-sm font-semibold text-gray-600 mb-1">Rechercher un produit (Nom ou DCI)</label>
+          <input type="text" id="recherche-produit" placeholder="Ex: Paracétamol ou 500mg..." class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" />
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-sm font-semibold text-gray-600 mb-1">Quantité (Unités)</label>
+            <input type="number" id="quantite" min="1" value="1" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-600 mb-1">Numéro de Lot</label>
+            <input type="text" id="lot" placeholder="Ex: LOT23B" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-600 mb-1">Péremption</label>
+            <input type="date" id="peremption" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" />
+          </div>
+        </div>
+
+        <button type="button" onclick="ajouterAuPanier()" class="w-full bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-4 rounded-lg transition duration-200 shadow">
+          + Ajouter à la dispensation
+        </button>
+      </form>
+
+      <div class="mt-6">
+        <h3 class="font-bold text-gray-700 mb-2">Médicaments sélectionnés</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-gray-50 border-b text-sm text-gray-600">
+                <th class="p-3">Produit / DCI</th>
+                <th class="p-3">Lot</th>
+                <th class="p-3 text-center">Quantité</th>
+                <th class="p-3 text-right">Action</th>
+              </tr>
+            </thead>
+            <tbody id="corps-panier"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+        <h2 class="text-lg font-bold mb-3 text-gray-800">Résumé de l'opération</h2>
+        <div class="flex justify-between text-xl font-bold text-blue-900 border-t border-b py-3 my-3">
+          <span>Total Unités :</span>
+          <span id="total-quantite">0</span>
+        </div>
+        <button onclick="validerDispensation()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 rounded-lg text-lg transition duration-200 shadow">
+          ✓ Valider et Enregistrer
+        </button>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+        <h2 class="text-sm font-bold text-red-700 uppercase tracking-wider mb-3">⚠️ Alertes Logistiques (Sous le SDU)</h2>
+        <div class="space-y-3" id="bloc-alertes">
+          <div class="p-3 bg-red-50 border-l-4 border-red-500 rounded text-xs">
+            <p class="font-bold text-red-900">Amoxicilline 500mg Gélule</p>
+            <p class="text-gray-600">Stock actuel : 120 | SDU requis : 300</p>
+            <p class="text-blue-800 font-semibold mt-1">💡 QaC suggérée : 480 unités</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const panier = [];
+
+    window.addEventListener("online", () => modifierStatutReseau(true));
+    window.addEventListener("offline", () => modifierStatutReseau(false));
+
+    function modifierStatutReseau(estConnecte) {
+      const div = document.getElementById("statut-reseau");
+      const texte = document.getElementById("statut-texte");
+      if (estConnecte) {
+        div.className = "flex items-center space-x-2 bg-green-600 px-3 py-1 rounded-full text-sm font-medium text-white";
+        texte.innerText = "Mode Connecté (Serveur)";
+      } else {
+        div.className = "flex items-center space-x-2 bg-amber-600 px-3 py-1 rounded-full text-sm font-medium text-white";
+        texte.innerText = "Mode Hors-ligne (Stockage local actif)";
+      }
+    }
+
+    function ajouterAuPanier() {
+      const produit = document.getElementById("recherche-produit").value.trim();
+      const quantite = Number(document.getElementById("quantite").value || 0);
+      const lot = document.getElementById("lot").value.trim();
+      const peremption = document.getElementById("peremption").value;
+      if (!produit || quantite <= 0) {
+        alert("Veuillez saisir un produit et une quantité valide.");
+        return;
+      }
+
+      panier.push({
+        produit,
+        quantite,
+        lot: lot || "LOT_NON_RENSEIGNE",
+        peremption: peremption || new Date().toISOString().slice(0, 10),
+      });
+
+      document.getElementById("form-vente").reset();
+      document.getElementById("quantite").value = 1;
+      afficherPanier();
+    }
+
+    function afficherPanier() {
+      const tbody = document.getElementById("corps-panier");
+      tbody.innerHTML = "";
+      let total = 0;
+
+      panier.forEach((item, index) => {
+        total += item.quantite;
+        const row = document.createElement("tr");
+        row.className = "border-b text-sm";
+        row.innerHTML = `
+          <td class="p-3">${item.produit}</td>
+          <td class="p-3">${item.lot}</td>
+          <td class="p-3 text-center">${item.quantite}</td>
+          <td class="p-3 text-right">
+            <button class="text-red-600 font-bold" onclick="supprimerDuPanier(${index})">✕</button>
+          </td>
+        `;
+        tbody.appendChild(row);
+      });
+
+      document.getElementById("total-quantite").innerText = String(total);
+    }
+
+    function supprimerDuPanier(index) {
+      panier.splice(index, 1);
+      afficherPanier();
+    }
+
+    function validerDispensation() {
+      if (!panier.length) {
+        alert("Aucun médicament à valider.");
+        return;
+      }
+
+      const mouvements = panier.map((item) => ({
+        medicament_id: 1,
+        type_mouvement: "SORTIE",
+        quantite: item.quantite,
+        date_mouvement: new Date().toISOString(),
+        lot_numero: item.lot,
+        date_peremption: item.peremption,
+      }));
+
+      if (navigator.onLine) {
+        fetch("http://localhost:8000/api/mouvements", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(mouvements),
+        })
+          .then((response) => response.json())
+          .then(() => {
+            alert("Dispensation enregistrée avec succès.");
+            panier.length = 0;
+            afficherPanier();
+          })
+          .catch(() => {
+            alert("Serveur indisponible, enregistrement local seulement.");
+            panier.forEach((item) => {
+              stockerMouvementLocal(1, "SORTIE", item.quantite, item.lot, item.peremption);
+            });
+            panier.length = 0;
+            afficherPanier();
+          });
+      } else {
+        panier.forEach((item) => {
+          stockerMouvementLocal(1, "SORTIE", item.quantite, item.lot, item.peremption);
+        });
+        alert("Mode hors ligne activé. Les ventes sont sauvegardées localement.");
+        panier.length = 0;
+        afficherPanier();
+      }
+    }
+
+    modifierStatutReseau(navigator.onLine);
+    afficherPanier();
+  </script>
+</body>
+</html>

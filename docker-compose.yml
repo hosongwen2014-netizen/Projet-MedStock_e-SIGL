@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  medstock_db:
+    image: postgres:15-alpine
+    container_name: medstock_database
+    restart: always
+    env_file: .env
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-votre_mot_de_passe_securise}
+      POSTGRES_DB: medstock_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - medstock_data:/var/lib/postgresql/data
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d:ro
+
+  medstock_api:
+    build: .
+    container_name: medstock_backend_api
+    restart: always
+    depends_on:
+      - medstock_db
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      POSTGRES_HOST: medstock_db
+      POSTGRES_DB: medstock_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-votre_mot_de_passe_securise}
+      MEDSTOCK_ALLOWED_ORIGINS: http://localhost:3000,http://127.0.0.1:5500,http://localhost:8000,https://medstock-benin.org
+
+volumes:
+  medstock_data:
