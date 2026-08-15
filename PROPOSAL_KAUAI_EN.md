@@ -1,271 +1,123 @@
-# UNSOLICITED BUSINESS PROPOSAL
+# Unsolicited Business Proposal: Kauai Avian Value Chain (KAVC)
+
+**TO:** The Kauaʻi County Council, Hawaii Department of Agriculture (HDOA), & Office of Economic Development
+**FROM:** KAVC Project Advisory Team
+**DATE:** October 2023
+**SUBJECT:** Commercial Proposal for Island-Wide Feral Poultry Management, Quarantine Purification, and Local Food Value Creation
 
 ---
 
-### **PROJECT: KAUAI AVIAN VALUE CHAIN (KAVC)**
-**A Turnkey Circular Economy Solution for the Humane Management, Quarantine Purification, and Commercial Valorization of Feral Poultry on the Island of Kauaʻi**
+### Executive Summary
+
+Kauaʻi has lived with an overwhelming feral chicken problem for decades. Ever since Hurricane Iniki flattened domestic coops back in 1992, escaped farm birds crossed with the island's wild *Moa* population. Without natural predators like mongooses around, the population exploded across Lihue, Kapaʻa, Poipu, and Princeville.
+
+Right now, the County spends money every year hiring contractors to set up basic traps and destroy birds. It costs taxpayers $15 to $30 for every bird caught, only for new ones to move right into those same spots weeks later. It's a continuous expense that leaves the underlying issue untouched while throwing away thousands of pounds of viable protein.
+
+Our team developed the **Kauai Avian Value Chain (KAVC)** to turn this recurring public nuisance into a local economic opportunity. We handle the full pipeline from field capture to final product:
+
+* **Smart, Low-Disruption Trapping:** Deploying sensor-triggered multi-catch traps during off-peak hours so tourist corridors and local businesses aren't disturbed.
+* **21 to 28-Day Grain Purge:** Relocating captured birds to enclosed transition farms on Kauaʻi. Feeding them clean grains, organic meals, and probiotics flushes out urban street toxins and restores meat quality.
+* **USDA & HDOA Inspected Slaughter:** Running mobile poultry processing units under continuous veterinary oversight in compliance with the Poultry Products Inspection Act (PPIA).
+* **Zero-Waste Market Distribution:** Supplying local restaurants with heritage stewing fowl, producing shelf-stable canned goods, and recycling all feathers and bones into high-nitrogen organic fertilizer for Kauaʻi farmers.
+
+Instead of paying 100% of the cost for bird disposal, Kauaʻi County saves 35% on service fees under our public-private framework, funded partly through our commercial sales of meat and soil amendments. We propose starting with a 6-month demonstration pilot around Lihue Airport or downtown Kapaʻa to prove out the numbers, food safety protocols, and neighborhood impact before scaling island-wide.
 
 ---
 
-**SUBMITTED TO:**
-* **The Honorable Members of the Kauaʻi County Council**
-* **Hawaii Department of Agriculture (HDOA)**
-* **Office of Economic Development, County of Kauaʻi**
+### Statement of Need & Current Challenges
 
-**Date:** October 2023
-**Document Status:** Official Unsolicited Business Proposal (Under Hawaii Public Procurement Standards)
+Walk through Lihue or Poipu at 4:00 AM and the problem is obvious. The island's feral poultry population has grown far beyond a quirky background feature for tourists. It's now a real headache for resort operations, public health, and transportation infrastructure.
 
----
+#### Where the Current Approach Falls Short
 
-## **TABLE OF CONTENTS**
+1. **Reactive Trapping Contracts:** The County currently hires trappers who catch birds and take them straight to disposal. The moment a trapping run ends, birds from neighboring lots move in to fill the food and shelter vacuum. It's a perpetual line item on the county budget.
+2. **Oral Contraceptives:** Products like OvaControl sound good on paper, but distributing birth control feed to thousands of wild birds scattered across open island terrain—where fruit and bugs are everywhere—just doesn't work in practice.
 
-1. [EXECUTIVE SUMMARY](#1-executive-summary)
-2. [STATEMENT OF NEED & CURRENT CHALLENGES](#2-statement-of-need--current-challenges)
-3. [PROPOSED OPERATIONAL MODEL](#3-proposed-operational-model)
-4. [REGULATORY & SANITARY COMPLIANCE](#4-regulatory--sanitary-compliance)
-5. [FINANCIAL & BUSINESS MODEL](#5-financial--business-model)
-6. [CONCLUSION & CALL TO ACTION](#6-conclusion--call-to-action)
+#### The Real-World Costs to Kauaʻi
+
+* **Resort & Business Impact:** Hotel managers routinely field complaints from guests awakened before dawn by crowing roosters. Outdoor dining patios face constant cleanup from birds scavenging off tables and leaving droppings on furniture.
+* **Sanitation & Health Risks:** Urban chickens forage in trash cans and parking lot runoffs, picking up heavy metals and urban contaminants. Their droppings around public parks and boardwalks create real sanitation issues for residents and families.
+* **Aviation & Traffic Safety:** Flocks crossing highways cause sudden braking and minor accidents. More critically, birds foraging near Lihue Airport (LIH) create genuine bird-strike hazards for incoming and outgoing flights.
 
 ---
 
-<a name="1-executive-summary"></a>
-## **1. EXECUTIVE SUMMARY**
+### Proposed Operational Model
 
-### **1.1 Regional Context & Strategic Problem**
-The Island of Kauaʻi faces an unchecked proliferation of feral chickens and domestic hybrid poultry (*Gallus gallus domesticus* mixed with *Gallus gallus / Moa*), estimated at tens of thousands of individuals. Tracing its resurgence primarily to the destruction of coops during Hurricane Iniki in 1992 and subsequent breeding in an ecosystem devoid of major natural predators, this population creates escalating economic, public health, and tourism challenges across urban and resort corridors.
-
-Currently, local government entities expend substantial public funds on periodic, reactive trapping and disposal contracts. These traditional approaches yield no permanent demographic reduction, suffer from immediate population rebounds, and destroy a valuable protein resource without generating any return on investment for Kauaʻi taxpayers.
-
-### **1.2 The Turnkey Solution: Kauai Avian Value Chain (KAVC)**
-Our team proposes a turnkey circular economy framework to the Kauaʻi County Council and the Hawaii Department of Agriculture (HDOA). Rather than treating feral poultry as a costly urban waste problem, the **KAVC** project converts these birds into a high-value agricultural, culinary, and commercial resource.
-
-The project operates an end-to-end integrated supply chain:
-1. **Humane Selective Trapping**: Smart, low-impact trapping networks deployed in priority commercial, municipal, and resort corridors.
-2. **21-to-28 Day Quarantine & Dietary Purge**: Transition farming in biosecure enclosed facilities with a wholesome grain and probiotic regimen to eliminate urban bio-contaminants, purge toxins, and restore meat quality.
-3. **USDA & HDOA-Inspected Slaughter**: Mobile Poultry Processing Units (MPPU) operating under continuous veterinary oversight in full compliance with the Poultry Products Inspection Act (PPIA).
-4. **Zero-Waste Commercialization**: Distribution to local culinary establishments (slow-cooked and heritage poultry dishes), shelf-stable canned products, and conversion of by-products (feathers, bones) into organic fertilizer and animal feed.
-
-### **1.3 Public-Private Partnership (P3) Value Proposition**
-Under this hybrid model, Kauaʻi County will achieve:
-* **30% to 50% Reduction in Municipal Pest Control Expenditure** compared to current single-use trapping contracts.
-* **Creation of Local Sustainable Jobs** in trapping operations, livestock husbandry, processing, and butchery.
-* **Strengthened Food Sustainability**: Supporting Hawaiʻi’s statewide food self-sufficiency goals by replacing imported mainland poultry with locally processed heritage fowl.
+The KAVC project replaces endless extermination with a four-stage recovery pipeline:
 
 ```
-+-----------------------------------------------------------------------------------+
-|                        KAVC PROJECT: CIRCULAR ECONOMY MODEL                       |
-+-----------------------------------------------------------------------------------+
-|  [ Urban Smart Trapping ] ---> [ 3-4 Wk Grain Purge ] ---> [ USDA/HDOA Slaughter ]|
-|  (Humane & Selective)          (Biosecure Transition)      (Veterinary Inspected) |
-+-----------------------------------------------------------------------------------+
-                                                               |
-                                                               v
-                                             +----------------------------------+
-                                             | 100% COMMERCIAL VALORIZATION     |
-                                             +----------------------------------+
-                                             | • Restaurants & Canned Goods     |
-                                             | • Organic Fertilizer & Bio-Feed  |
-                                             | • Direct County Budget Savings   |
-                                             +----------------------------------+
+[ Stage 1: Smart Trapping ]
+   --> Off-peak capture in high-density corridors; non-target native birds released on site.
+
+[ Stage 2: 21-28 Day Grain Purge ]
+   --> Transfer to biosecure Kauaʻi transition farms; clean grain & probiotic diet clears urban toxins.
+
+[ Stage 3: USDA/HDOA Processing ]
+   --> Mobile Poultry Processing Unit (MPPU) with ante- and post-mortem veterinary inspection.
+
+[ Stage 4: Zero-Waste Sales ]
+   --> Heritage meat sales to local chefs; feathers & bones processed into organic farm fertilizer.
 ```
+
+#### Stage 1: Selective Field Trapping
+We place smart, automated multi-catch cages equipped with infrared triggers in high-complaint areas. Traps are set and serviced late at night or early in the morning so hotel guests and shop owners aren't affected. Our team checks traps daily, ensuring captured birds have shade and water, and immediately releasing any non-target native wildlife.
+
+#### Stage 2: Quarantine & Dietary Purification
+You can't take a chicken that's been eating off street pavement and put it straight onto a dinner plate. We transport all captured birds to enclosed, biosecure transition farms located on agricultural land on Kauaʻi. For 3 to 4 weeks, the birds receive a clean grain regimen—corn, wheat, barley, organic meals, and probiotic-enriched water. This purge clears urban chemical residues, settles the digestive tract, and rebuilds healthy muscle tissue.
+
+#### Stage 3: Inspected Mobile Processing
+Abattage and dressing take place in a temperature-controlled Mobile Poultry Processing Unit (MPPU). An inspector from USDA-FSIS or HDOA evaluates every lot before and after processing, enforcing the Poultry Products Inspection Act (PPIA). All meat is vacuum-sealed, chilled under 40°F within four hours, and labeled with lot tracking numbers from field trap to final box.
+
+#### Stage 4: Local Market & By-Product Sales
+* **Culinary Market:** Feral poultry meat is lean, firm, and flavorful—very similar to traditional French *Coq au Vin* or island heritage chickens. We supply local chefs and hotel kitchens with dressed birds ideal for slow-braising, stews, and smoked dishes like traditional Huli-Huli chicken.
+* **Specialty Products:** Smaller cuts and wings go into shelf-stable canned products, terrines, and concentrated bone broths for local grocery stores and the visitor specialty market.
+* **Zero-Waste Recycling:** Feathers undergo steam hydrolysis to create high-protein feather meal. Bones and offal are processed into high-grade organic bone meal fertilizer (N-P-K), giving Kauaʻi farmers an affordable alternative to imported chemical fertilizers.
 
 ---
 
-<a name="2-statement-of-need--current-challenges"></a>
-## **2. STATEMENT OF NEED & CURRENT CHALLENGES**
+### Regulatory & Sanitary Compliance
 
-### **2.1 Historical Genesis & Population Dynamics**
-Feral poultry on Kauaʻi possesses a unique ecological history. Following Hurricane Iniki in September 1992, domestic egg-layers and broilers escaped into the wild, cross-breeding with feral descendants of the Polynesian-introduced *Moa* (*Red Junglefowl / Gallus gallus*). Unchecked by natural predators such as mongooses (which are absent on Kauaʻi), population densities have reached critical levels across Lihue, Kapaʻa, Poipu, and Princeville.
+#### Sorting *Moa* from Feral Hybrids
+The original Polynesian-introduced *Moa* (*Gallus gallus*) holds cultural significance in Hawaiʻi. Urban feral chickens, by contrast, are uncontrolled domestic hybrids.
 
-### **2.2 Nuisance Diagnosis & Economic Impact**
+Working alongside poultry scientists from the University of Hawaiʻi (UH CTAHR), our field crews use a physical identification matrix covering plumage pattern, leg color, and comb shape. Any bird matching pure *Moa* traits is separated and released into upland forest reserves, while urban hybrids move forward into quarantine.
 
-#### A. Hospitality Sector & Visitor Experience Impact
-Tourism forms the economic backbone of Kauaʻi. Uncontrolled feral chickens in resorts, golf courses, and commercial plazas lead to:
-* Recurring guest complaints regarding early morning noise disturbances (rooster crowing starting as early as 3:00 AM).
-* Destruction of resort landscaping, flower beds, and outdoor dining ambiance.
-* Equipment and outdoor furniture fouling requiring daily sanitation maintenance.
-
-#### B. Public Health, Sanitation, and Chemical Risk
-Urban feral chickens scavenge in waste receptacles, parking lots, and runoff areas, creating three primary hazards:
-* **Pathogen Vectors**: Risks of spreading *Salmonella*, *Campylobacter*, and external avian parasites.
-* **Urban Bio-Contamination**: Ingestion of heavy metals, hydrocarbons, and degraded urban refuse present in public spaces.
-* **Fecal Accumulation**: Odor issues, fly breeding, and surface contamination in high-foot-traffic municipal zones.
-
-#### C. Transportation & Aviation Safety Hazards
-Birds crossing roadways cause sudden vehicle braking and traffic accidents. Crucially, feral poultry flocks adjacent to Lihue Airport (*LIH*) pose a documented strike hazard to civil aviation operations.
-
-```
-+----------------------------------------------------------------------------------+
-|                  IMPACT SUMMARY OF THE STATUS QUO ON KAUAʻI                      |
-+-----------------------------------+----------------------------------------------+
-| Impact Area                       | Observed Severity & Consequences             |
-+-----------------------------------+----------------------------------------------+
-| Tourism & Hospitality             | Reduced satisfaction scores, guest complaints|
-| Public Health & Sanitation        | Infection risks, heavy metal bio-accumulation|
-| Transport & Aviation Safety       | Road hazards & bird strike risks at LIH      |
-| Municipal Fiscal Management       | Sunk costs on non-permanent eradication      |
-+-----------------------------------+----------------------------------------------+
-```
-
-### **2.3 Failure of Conventional Approaches**
-1. **Trapping & Eradication Contracts (*Trapping & Disposal*)**: High unit cost per bird ($15 to $30) with zero long-term efficacy due to immediate demographic rebound from surrounding populations.
-2. **Oral Contraceptives (*OvaControl / Nicarbazin*)**: Logistically unfeasible in open environments with abundant natural food sources, resulting in prohibitive costs and negligible population control.
+#### Food Safety & HACCP Standards
+Our operations strictly follow the Poultry Products Inspection Act (21 U.S.C. 451) under a comprehensive HACCP plan:
+* **CCP 1:** 21-day minimum feed purge verification (testing feed lots for chemical purity).
+* **CCP 2:** Rapid carcass chilling to below 40°F within 4 hours post-slaughter.
+* **CCP 3:** End-to-end lot tracking connecting every packaged bird to its original trapping date and location.
 
 ---
 
-<a name="3-proposed-operational-model"></a>
-## **3. PROPOSED OPERATIONAL MODEL**
+### Financial & Business Model
 
-The **KAVC** project replaces reactive eradication with a four-stage circular economy framework:
+#### Public-Private Partnership Structure
+Instead of the County bearing 100% of the cost of trapping and disposal, KAVC shares the economic load:
 
-```
-+-----------------------------------------------------------------------------------+
-|                       KAVC FOUR-STAGE OPERATIONAL PIPELINE                        |
-+-----------------------------------------------------------------------------------+
-|  STAGE 1: Selective & Humane Urban Trapping (Smart Traps / Geo-fencing)           |
-|       |                                                                           |
-|       v                                                                           |
-|  STAGE 2: Quarantine & Dietary Purge (21-28 Days in Biosecure Transition Facility)|
-|       |                                                                           |
-|       v                                                                           |
-|  STAGE 3: USDA / HDOA Inspected Slaughter & Processing (MPPU Units)               |
-|       |                                                                           |
-|       v                                                                           |
-|  STAGE 4: Zero-Waste Commercialization (Culinary Products & Organic Fertilizer)   |
-+-----------------------------------------------------------------------------------+
-```
+1. **County Service Fee:** The County pays a set fee per bird captured and managed, set **35% below current extermination contract rates**.
+2. **Commercial Revenues:** We cover remaining capital and operating expenses through wholesale meat sales to restaurants, retail sales of jarred goods, and fertilizer sales to local farms.
 
-### **Stage 1: Selective & Humane Urban Trapping**
-* **Smart Trapping Technology**: Deployment of automated multi-catch cages equipped with infrared sensors, cameras, and remote triggering. Traps are positioned in priority municipal and commercial corridors.
-* **Low-Impact Operations**: Installation, baiting, and retrieval occur during off-peak hours (late night/early morning) to prevent disruption to residents, businesses, and tourists.
-* **Humane Handling**: Daily trap checks ensure adequate shade and water. On-site sorting ensures non-target avian species are immediately released.
-
-### **Stage 2: Quarantine & Dietary Purge (Transition Farming)**
-Due to urban scavenging, wild feral poultry meat cannot enter the human food chain without systematic purification.
-* **Biosecure Transition Facilities**: Birds are transported to enclosed agricultural sites on Kauaʻi.
-* **Dietary Purge Protocol (21 to 28 Days)**: Birds receive a controlled diet of wholesome grains (corn, wheat, barley), organic meals, and clean water enriched with probiotics and essential minerals.
-* **Physiological Objectives**:
-  1. Complete metabolic elimination of urban chemical residue and digestive contaminants.
-  2. Muscle tissue recovery and fat distribution normalization.
-  3. Microbiological clearance prior to processing release.
-
-### **Stage 3: USDA & HDOA Inspected Slaughter & Processing**
-* **Mobile Poultry Processing Unit (MPPU)**: Temperature-controlled mobile slaughter units built to USDA Food Safety and Inspection Service (FSIS) and HDOA standards.
-* **Veterinary Inspection**: Antemortem and postmortem inspections conducted by certified inspectors in compliance with the Poultry Products Inspection Act (PPIA).
-* **Packaging & Full Traceability**: Vacuum-sealed packaging with full lot tracking (capture date, purge duration, facility ID, USDA/HDOA inspection stamp).
-
-### **Stage 4: Zero-Waste Commercial & Culinary Valorization**
-
-#### A. Culinary Positioning: Hawaiian Heritage Stewing Poultry
-Purified feral poultry features dense, lean muscle tissue and rich flavor, matching European stewing fowl (*Coq au Vin*) or traditional island heritage chicken.
-* **Local Restaurant & Hotel Supply**: Supply to Kauaʻi chefs for slow-braised, stewed, or smoked recipes (Hawaiian Taro Coq au Vin, traditional slow-marinated Huli-Huli chicken).
-* **Shelf-Stable Specialty Foods**: Production of jarred gourmet products (pâtés, rillettes, concentrated bone broth) for local grocery retailers and visitor specialty markets.
-
-#### B. 100% By-Product Recycling (Zero-Waste)
-```
-+----------------------------------------------------------------------------------+
-|                      KAVC ZERO-WASTE BY-PRODUCT UTILIZATION                      |
-+-----------------------------------+----------------------------------------------+
-| Coproduct                         | Circular Valorization Pathway                |
-+-----------------------------------+----------------------------------------------+
-| Feathers                          | Hydrolysis into high-protein feather meal    |
-| Offal & Bones                     | Processing into N-P-K organic bone meal      |
-| Manure & Litter                   | Composting for local agricultural soil feed  |
-+-----------------------------------+----------------------------------------------+
-```
+#### 6-Month Demonstration Pilot
+We recommend starting with a focused pilot to test every link in the chain:
+* **Location:** The Lihue Airport Corridor (LIH) or downtown Kapaʻa.
+* **Target Volume:** 1,500 to 2,500 birds over six months.
+* **Key Success Metrics:**
+  * At least a 70% drop in official noise and nuisance complaints in the pilot zone.
+  * 100% veterinary compliance across all processed lots.
+  * Over 95% diversion of processing waste into fertilizer and feed.
 
 ---
 
-<a name="4-regulatory--sanitary-compliance"></a>
-## **4. REGULATORY & SANITARY COMPLIANCE**
+### Conclusion & Immediate Next Steps
 
-### **4.1 Species Identification Protocol (*Moa vs. Feral Hybrids*)**
-* **Legal Challenge**: The indigenous Polynesian-introduced *Moa* (*Gallus gallus*) holds cultural significance, whereas feral urban hybrids are unprotected invasive fowl.
-* **Biological Sorting Protocol**: Developed in partnership with the University of Hawaiʻi College of Tropical Agriculture and Human Resources (UH CTAHR), field operators apply a rigorous phenotypic sorting matrix (plumage pattern, leg coloration, comb morphology). Pure *Moa* specimens are released into upland forest reserves, while urban hybrids enter the quarantine pipeline.
+The Kauai Avian Value Chain offers a common-sense way out of an old problem. By turning feral chickens into a managed resource, Kauaʻi can clean up its urban corridors, trim municipal expenses, and support local food security.
 
-```
-                    [ CAPTURED POULTRY AT TRAPPING SITES ]
-                                       |
-                                       v
-                    [ MORPHOLOGICAL EVALUATION MATRIX ]
-                                       |
-                   +-------------------+-------------------+
-                   |                                       |
-                   v                                       v
-         [ Pure Moa Phenotype ]                  [ Feral Urban Hybrid ]
-       (Cultural Native Heritage)                (Invasive Nuisance)
-                   |                                       |
-                   v                                       v
-        Release into upland forest             Proceed to 3-Wk Quarantine
-           reserves (UH CTAHR)                      & Dietary Purge
-```
-
-### **4.2 Food Safety Standards & HACCP Framework**
-Compliance with the *Poultry Products Inspection Act (PPIA)* (21 U.S.C. 451 et seq.) and HDOA Division of Animal Industry rules. A full Hazard Analysis Critical Control Point (HACCP) plan covers capture, purge monitoring, post-slaughter chilling (< 40°F within 4 hours), and complete lot traceability.
-
----
-
-<a name="5-financial--business-model"></a>
-## **5. FINANCIAL & BUSINESS MODEL**
-
-### **5.1 Public-Private Partnership (P3) Revenue Structure**
-1. **Municipal Service Fee**: A fixed fee per captured bird paid by Kauaʻi County, structured to deliver an immediate **35% savings** compared to traditional extermination contracts.
-2. **Commercial Revenue**: Sales of inspected dressed carcasses to restaurants, retail sales of jarred specialty goods, and wholesale organic fertilizer sales to local farms.
-
-```
-+----------------------------------------------------------------------------------+
-|                        KAVC HYBRID REVENUE STRUCTURE                             |
-+-----------------------------------+----------------------------------------------+
-| Revenue Stream                    | Mechanism & Value Creation                   |
-+-----------------------------------+----------------------------------------------+
-| Municipal Service Fee (County)    | Per-bird fee structure (-35% vs status quo)  |
-| Raw Dressed Meat Sales            | Restaurant & hotel wholesale distribution    |
-| Processed Shelf-Stable Goods      | Retail stores & gourmet gift market          |
-| Organic By-products               | Fertilizer & feed sales to local farmers     |
-+-----------------------------------+----------------------------------------------+
-```
-
-### **5.2 6-Month Demonstration Pilot Project**
-
-#### A. Target Pilot Scope
-* **Location**: Lihue Airport Corridor (*LIH*) **or** Kapaʻa Commercial Downtown District.
-* **Target Volume**: 1,500 to 2,500 birds trapped, purged, and processed over 6 months.
-
-#### B. Pilot Implementation Timeline
-```
-+-----------------------------------------------------------------------------------+
-|                        6-MONTH PILOT PROJECT TIMELINE                             |
-+-----------------------------------------------------------------------------------+
-| MONTH 1: Quarantine farm setup, MPPU delivery, permit finalization, trap network. |
-| MONTHS 2-5: Active trapping, 21-day grain purge, slaughter, restaurant trial.     |
-| MONTH 6: Economic/sanitary audit, resident survey, report to County Council.      |
-+-----------------------------------------------------------------------------------+
-```
-
-#### C. Key Performance Indicators (KPIs)
-* **Nuisance Reduction**: Minimum **70% decrease in public complaints** in the pilot area.
-* **Food Safety**: **100% veterinary compliance** across all quarantine lots.
-* **Waste Diversion**: **> 95% zero-waste recycling rate** for all processing by-products.
-
----
-
-<a name="6-conclusion--call-to-action"></a>
-## **6. CONCLUSION & CALL TO ACTION**
-
-### **6.1 Summary of Strategic Value**
-The **Kauai Avian Value Chain (KAVC)** project presents Kauaʻi leadership with an opportunity to resolve a persistent ecological and municipal nuisance through sustainable circular engineering. By shifting from wasteful extermination to productive resource recovery, Kauaʻi County will clean its municipal corridors, reduce public expenditures, and advance island food self-sufficiency.
-
-### **6.2 Recommended Immediate Next Steps**
-1. **Technical Scoping Meeting**: Schedule a joint working session within 30 days with representatives from the Kauaʻi County Council, Office of Economic Development, and HDOA.
-2. **Memorandum of Understanding (MOU)**: Execute a non-binding MOU authorizing the 6-month demonstration pilot project.
-3. **Site Allocation**: Designate a temporary agricultural parcel for quarantine farming and MPPU positioning.
-
----
+To move forward, we suggest three simple steps:
+1. **30-Day Scoping Meeting:** A working session with Council members, OED staff, and HDOA officers to review project parameters.
+2. **Non-Binding MOU:** Signing a Memorandum of Understanding to authorize planning for the 6-month pilot.
+3. **Pilot Site Designation:** Identifying a small parcel of county agricultural land for the temporary quarantine facility and mobile processing unit.
 
 **Respectfully submitted by:**
-
-**The Kauaʻi Avian Value Chain (KAVC) Project Team**
-*Circular Economy & Public Procurement Advisory*
-**Contact:** `proposal@kavc-hawaii.org`
-
----
+The KAVC Project Advisory Team
+*Contact:* proposal@kavc-hawaii.org
